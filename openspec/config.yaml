@@ -1,0 +1,22 @@
+schema: spec-driven
+
+context: |
+  Next.js 16 App Router, React 19, and strict TypeScript project using pnpm.
+  Read AGENTS.md and relevant docs/ pages before planning. The dependency
+  direction is app → features → entities → shared. Server Components are the
+  default. Inspect the current code and package.json before naming a library,
+  API layer, test runner, or quality command. Biome handles lint and formatting;
+  TanStack Query, Orval, Axios, Vitest, Zustand, react-hook-form, and Zod
+  are not current project infrastructure. Do not propose them as already present.
+  Reuse existing components and rules before adding another implementation.
+
+rules:
+  proposal:
+    - State the user-visible outcome and explicit non-goals.
+    - Identify whether the change needs a dependency, API contract, or architecture decision.
+  design:
+    - Name the owning layer and server/client boundary where relevant.
+    - Explain reuse of existing code and any new dependency or abstraction.
+  tasks:
+    - Include behavior-focused verification and the available project quality checks.
+    - Keep tasks small enough to mark complete only when fully implemented.
