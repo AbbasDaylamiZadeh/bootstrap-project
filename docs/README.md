@@ -17,7 +17,7 @@ This directory contains the engineering contract used by developers and AI codin
 - `security.md` — frontend security rules
 - `ai-development.md` — AI coding-agent workflow
 - `../openspec/config.yaml` — OpenSpec context and artifact guidance
-- `../.agents/skills/` — task-specific agent skills
+- `../.agents/skills/` — task-specific agent skills, including optional Caveman communication skills
 
 ## Source of Truth
 
